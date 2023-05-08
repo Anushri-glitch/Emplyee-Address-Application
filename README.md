@@ -5,8 +5,16 @@
     2. JAVA
     3. Postman
     4. SQL
+    
+## :two: Dependency Used
+    1. Spring Web
+    2. Spring Boot Dev Tools
+    3. Lombok
+    4. Spring Data JPA
+    5. MySQL Driver
+    6. Validation
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## :two: Dataflow (Functions Used In)
+## :four: Dataflow (Functions Used In)
 ### :purple_square: 1. Model - Model is used to Iniitialize the required attributes and create the accessable constructors and methods
 #### :o: Employee.java
 ```java
@@ -152,7 +160,7 @@ public interface IAddressDao extends JpaRepository<Address,Integer> {
     1. ResponseEntity
     2. List
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## :four: DataBase Response In project
+## :five: DataBase Response In project
 
 :arrow_right: Employee table
  ```sql
@@ -178,7 +186,7 @@ select * from address;
 +------------+-----------+------------+---------+
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-## :five: Project Summary
+## :six: Project Summary
 ### :o: Project result 
 #### :purple_square: SAVE EMPLOYEE : http://localhost:8080/employee
 ![Screenshot (788)](https://user-images.githubusercontent.com/47708011/236824811-648d9119-b61d-403e-8c83-8c78566eccbe.png)
@@ -202,10 +210,11 @@ SAVE ADDRESS operation already perform in SAVE EMPLOYEE!!
 ![Screenshot (794)](https://user-images.githubusercontent.com/47708011/236827395-718317ef-527e-411c-9055-be7da12584db.png)
 
 #### :purple_square: FIND ADDRESS BY ID : http://localhost:8080/addressId
-![Screenshot (792)](https://user-images.githubusercontent.com/47708011/236827067-959ae91c-0d3d-4f4c-80f8-e6cb1be98bf6.png)
+![Screenshot (795)](https://user-images.githubusercontent.com/47708011/236828675-8b353417-f33f-493c-b3a5-34927a387a43.png)
 
 #### :purple_square: UPDATE ADDRESS : http://localhost:8080/address
-![Screenshot (781)](https://user-images.githubusercontent.com/47708011/235762056-d3361eee-b747-426a-9c6d-665084ecbb16.png)
+![Screenshot (796)](https://user-images.githubusercontent.com/47708011/236828840-339c5814-deaa-4d0c-b216-f4522cadca45.png)
 
-#### :purple_square: DELETE EVENT : http://localhost:8080/eventD/eventId/{eventId}
+#### :purple_square: DELETE ADDRESS : http://localhost:8080/address
+![Screenshot (797)](https://user-images.githubusercontent.com/47708011/236829050-194e4070-256d-4f6f-ad87-7592424e7e4f.png)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
