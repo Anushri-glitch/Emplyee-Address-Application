@@ -199,12 +199,12 @@ select * from address;
 SAVE ADDRESS operation already perform in SAVE EMPLOYEE!! 
 
 #### :purple_square: FIND ALL ADDRESSES : http://localhost:8080/address
-![Screenshot (792)](https://user-images.githubusercontent.com/47708011/236827067-959ae91c-0d3d-4f4c-80f8-e6cb1be98bf6.png)
-
-#### :purple_square: FIND ADDRESS BY ID : http://localhost:8080/addressId
 ![Screenshot (794)](https://user-images.githubusercontent.com/47708011/236827395-718317ef-527e-411c-9055-be7da12584db.png)
 
-#### :purple_square: UPDATE EVENT : http://localhost:8080/address
+#### :purple_square: FIND ADDRESS BY ID : http://localhost:8080/addressId
+![Screenshot (792)](https://user-images.githubusercontent.com/47708011/236827067-959ae91c-0d3d-4f4c-80f8-e6cb1be98bf6.png)
+
+#### :purple_square: UPDATE ADDRESS : http://localhost:8080/address
 ![Screenshot (781)](https://user-images.githubusercontent.com/47708011/235762056-d3361eee-b747-426a-9c6d-665084ecbb16.png)
 
 #### :purple_square: DELETE EVENT : http://localhost:8080/eventD/eventId/{eventId}
