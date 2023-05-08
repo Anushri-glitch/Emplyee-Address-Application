@@ -14,7 +14,7 @@
     5. MySQL Driver
     6. Validation
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## :four: Dataflow (Functions Used In)
+## :three: Dataflow (Functions Used In)
 ### :purple_square: 1. Model - Model is used to Iniitialize the required attributes and create the accessable constructors and methods
 #### :o: Employee.java
 ```java
@@ -156,7 +156,7 @@ public interface IAddressDao extends JpaRepository<Address,Integer> {
 #### To See Repository
 :white_check_mark: [EmployeeAddress-DAO](https://github.com/Anushri-glitch/Emplyee-Address-Application/tree/master/Employee-Address-Application/src/main/java/com/Shrishti/EmployeeAddressApplication/repository)
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## :three: DataStructures Used in Project
+## :four: DataStructures Used in Project
     1. ResponseEntity
     2. List
 -------------------------------------------------------------------------------------------------------------------------------------------------------
